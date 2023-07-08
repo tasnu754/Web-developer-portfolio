@@ -1,0 +1,46 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+/* Shared section  */
+.orangetext{
+    color: #FD6E0A;
+}
+
+.button-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none; 
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 15px 35px;
+
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none ;
+    margin-right: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
