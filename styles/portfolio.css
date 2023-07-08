@@ -6,6 +6,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 
 .title{
@@ -43,4 +44,19 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+
+/* Header section  */
+.header{
+    background:  #FFF8F3;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .picture{
+    width: 500px;
+
 }
