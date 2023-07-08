@@ -31,6 +31,18 @@ nav{
 
 }
 
+.section-title{
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-descript{
+    text-align: center;
+    color: #757575;
+    font-size: 18px;
+}
+/* Nav section  */
 nav > ul{
     display: flex;
     align-items: center;
@@ -49,14 +61,45 @@ nav a{
 /* Header section  */
 .header{
     background:  #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
 }
 
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    
 }
 .banner .picture{
     width: 500px;
 
+}
+.banner-greeting{
+    font-size: 45px;
+    color:#474747;
+    margin-bottom: 5px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.descript{
+    margin-bottom: 30px;
+}
+.banner-content{
+    max-width: 500px;
+}
+
+/* Main section  */
+.about{
+    padding: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    margin: 130px 0px;
 }
